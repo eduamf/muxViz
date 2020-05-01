@@ -1,3 +1,4 @@
+# Install libraries
 if(version$major<3 || (version$major==3 && version$minor<2.0)){
     stop(paste("WARNING! muxViz requires R 3.2.x or higher in order to work properly. \nPlease update your R framework.\n"))
 }
